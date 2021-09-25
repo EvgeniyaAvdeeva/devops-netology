@@ -1,7 +1,9 @@
 # devops-netologymeow one
-Runtime файлы, такие как log, lock, cache или временные файлы (tmp).
-Файлы с конфиденциальной информацией, такие как пароли или ключи API.
-Каталоги зависимостей, такие как /vendor или /node_modules.
-Build каталоги, такие как /public или /dist.
-Системные файлы, такие как .DS_Store или Thumbs.db
-Конфигурационные файлы IDE или текстового редактора.
+# Исключить все каталоги, кроме каталога terraform
+# Исключить файл tfstate и последующие файлы.
+# Заполнить файл сбоев crash.log.
+# Игнорировать все файлы .tfvars
+# Исключить файлы *_override.tf
+# *_override.tf.json но не исключать файлы override.tf override.tf.json
+# Не исключать файлы tfplan.
+# Игнорировать файлы .terraformrc terraform.rc
