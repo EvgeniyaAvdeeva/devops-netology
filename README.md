@@ -1,4 +1,5 @@
-# devops-netologymeow one
+Klaster bombaster
+devops-netologymeow one
 # Исключить все каталоги, кроме каталога terraform
 # Исключить файл tfstate и последующие файлы. 
 # Заполнить файл сбоев crash.log. 
